@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arte e Expressão - Capoeira</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@600&display=swap" rel="stylesheet" />
+
+ 
+</head>
+
+<body>
+
+  <header>
+    <div class="logo" style="display: flex; align-items: center; gap: 15px;">
+      <!-- Adicione sua logo aqui - substitua o src pelo caminho correto da sua imagem -->
+      <img src="Logotipo.png" alt="Logo Arte e Expressão" style="width: 60px; height: 60px;">
+      <div style="display: flex; flex-direction: column;">
+        <h1>Arte e Expressão</h1>
+        <p>Grupo de Capoeira</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#aulas">Aulas</a></li>
+        <li><a href="#mestre">Mestre Jiboia</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Capoeira: Dança, Luta e Cultura</h2>
+      </div>
+    </section>
+
+    <!-- Seção Mestre (abaixo do Hero) -->
+    <section id="mestre" class="master">
+      <h2 style="color: #0057d6; font-size: 2.2em;">Mestre Jiboia</h2>
+      <div class="master-content" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
+        <div style="flex: 1.5; min-width: 250px; background: #eaf3ff; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,87,214,0.12); padding: 24px;">
+          <img src="Jiboia.jpg" alt="Mestre Jiboia" style="width: 100%; max-width: 260px; border-radius: 8px; box-shadow: 0 2px 8px #0057d6; margin-bottom: 16px;">
+          <div class="master-bio" style="font-size: 1.1em; color: #333;">
+            <p style="font-weight: bold; color: #0057d6;">Mestre Jiboia iniciou sua jornada na capoeira em 1987...</p>
+            <p>Com mais de 30 anos de experiência...</p>
+            <p style="font-style: italic; color: #0057d6; font-size: 1.15em;">"A capoeira é a arte de transformar adversidade em beleza" - Mestre Jiboia</p>
+          </div>
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+          <img src="Capoeira.png" alt="Contra-mestres">
+          <div class="master-bio">
+            <h3>Contra-mestres</h3>
+            <p>Nossos contra-mestres são referência...</p>
+            <ul>
+              <li>Contra-mestre Sabiá</li>
+              <li>Contra-mestre Falcão</li>
+              <li>Contra-mestre Arara</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Carrossel (abaixo do Mestre) -->
+    <section class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <img src="cachorro.webp" alt="Professor 1" />
+          <h3>Mestre Mulato</h3>
+          <p>Especialista em Capoeira Angola</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Capivara.webp" alt="Professor 2" />
+          <h3>Instrutor Pirata</h3>
+          <p>Especialista em Capoeira Angola com mais de 15 anos de experiência</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Gato.avif" alt="Professor 3" />
+          <h3>Instrutora Gabi</h3>
+          <p>Instrutor de capoeira contemporânea</p>
+        </div>
+        <!-- repetidos para loop infinito -->
+        <div class="carousel-item">
+          <img src="cachorro.webp" alt="Professor 1" />
+          <h3>Mestre Mulato</h3>
+          <p>Especialista em Capoeira Angola</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Capivara.webp" alt="Professor 2" />
+          <h3>Instrutor Pirata</h3>
+          <p>Especialista em Capoeira Angola com mais de 15 anos de experiência.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Gato.avif" alt="Professor 3" />
+          <h3>Instrutora Gabi</h3>
+          <p>Instrutor de capoeira contemporânea</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+      <h2>Sobre o Grupo Arte e Expressão</h2>
+      <div class="about-content">
+        <p>O grupo Arte e Expressão foi fundado em 2005 com o objetivo de preservar e difundir a cultura da capoeira em sua forma mais autêntica, unindo tradição e contemporaneidade.</p>
+        <p>Nossa missão é formar não apenas capoeiristas, mas cidadãos conscientes de sua herança cultural.</p>
+        <img src="Roda de Capoeira.jpg" alt="Roda de Capoeira do grupo Arte e Expressão" />
+      </div>
+    </section>
+
+    <!-- Seção Aulas -->
+    <section id="aulas" class="classes">
+      <h2>Nossas Aulas</h2>
+      <div class="class-cards">
+        <div class="card">
+          <h3>Capoeira Santa Maria</h3>
+          <p>Segunda, Quarta e Sexta - 18h às 19h</p>
+        </div>
+        <div class="card">
+          <h3>Capoeira Teixeira</h3>
+          <p>Terça e Quinta - 18h às 19h</p>
+        </div>
+        <div class="card">
+          <h3>Capoeira Rio Grande</h3>
+          <p>Segunda, Quarta e Sexta - 19h às 20h</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+      <h2>Entre em Contato</h2>
+      <form action="https://formspree.io/f/isaquedocarmo89@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="tel" name="telefone" placeholder="Seu telefone">
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Endereço:</strong> Rua da Capoeira, 123 - Centro</p>
+        <p><strong>Telefone:</strong> (21) 98765-4321</p>
+        <p><strong>Email:</strong> contato@arteeexpressao.com.br</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Grupo de Capoeira Arte e Expressão - Todos os direitos reservados</p>
+    <div class="social">
+      <a href="https://www.instagram.com/mestrejiboiaae/" target="_blank"><img src="Instagram.png" alt="Instagram"></a>
+      <a href="https://www.facebook.com/contramestre.jiboia?locale=pt_BR" target="_blank"><img src="Facebook.png" alt="Facebook"></a>
+      <a href="https://www.youtube.com/watch?v=bD6ifecX6rs&list=RDbD6ifecX6rs&start_radio=1" target="_blank"><img src="Youtube.png" alt="YouTube"></a>
+    </div>
+  </footer>
+
+</body>
+</html>
